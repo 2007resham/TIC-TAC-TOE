@@ -17,6 +17,6 @@ def button_click(index):
 
 def toggle_player():
     global current_player
-    current_player= "X" if current_player == "O" else "O":
+    current_player= "X" if current_player == "O" else "O"
     label.config(text=f"Player {current_player}'s turn")
 
